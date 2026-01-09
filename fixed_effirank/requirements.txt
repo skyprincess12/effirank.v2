@@ -1,0 +1,42 @@
+# Complete Requirements for TLS System v2.1.0
+# Install with: pip install -r requirements.txt
+
+# Core Streamlit
+streamlit>=1.30.0
+
+# Authentication
+streamlit-authenticator>=0.2.3
+extra-streamlit-components>=0.1.60
+
+# Data Processing & Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+plotly>=5.18.0
+
+# Database
+supabase>=2.0.0
+
+# HTTP Requests (Weather API)
+requests>=2.31.0
+
+# Date/Time handling
+python-dateutil>=2.8.2
+pytz>=2024.1
+
+# Password Hashing
+bcrypt>=4.1.0
+
+# YAML parsing
+PyYAML>=6.0.1
+
+# Optional but recommended
+openpyxl>=3.1.2  # For Excel export
+python-dotenv>=1.0.0  # For environment variables
+
+# Caching and performance
+diskcache>=5.6.3  # For persistent caching
+
+# Logging
+python-json-logger>=2.0.7  # For structured logging
